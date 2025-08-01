@@ -2,6 +2,17 @@
 
 A complete Flutter application with Firebase Authentication featuring email/password login, registration, and user management.
 
+## 🌐 **Live Demo**
+
+**🚀 Try it now:** [https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)
+
+**📱 Test the app:**
+- Create a new account with any email/password
+- Experience the full authentication flow
+- View the beautiful Material Design interface
+
+**🔧 Firebase Console:** [https://console.firebase.google.com/project/authenticationapp-88f64/overview](https://console.firebase.google.com/project/authenticationapp-88f64/overview)
+
 ## ✨ Features
 
 - ✅ **Email/Password Authentication**: Secure user registration and login
@@ -13,6 +24,24 @@ A complete Flutter application with Firebase Authentication featuring email/pass
 - ✅ **Home page with personalized greeting**
 - ✅ **Logout functionality**
 - ✅ **Error handling with user-friendly messages**
+- ✅ **Live Web Deployment**: Hosted on Firebase Hosting
+- ✅ **GitHub Repository**: Complete source code available
+
+## 🚀 Deployment
+
+This app is deployed and live at: **[https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)**
+
+### Deployment Stack:
+- **Hosting Platform:** Firebase Hosting
+- **Build Tool:** Flutter Web
+- **Source Control:** GitHub
+- **CI/CD:** Manual deployment with Firebase CLI
+
+### To redeploy after changes:
+```bash
+flutter build web
+firebase deploy --only hosting
+```
 
 ## Prerequisites
 
@@ -90,6 +119,11 @@ lib/
 ```
 
 ## Testing the App
+
+### 🌐 Online Testing (Recommended):
+Visit **[https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)** and test directly in your browser!
+
+### 📱 Local Testing:
 
 ### Test Registration Flow:
 
@@ -202,6 +236,15 @@ This app can be extended with:
 - User profile management
 - Biometric authentication
 - Remember me functionality
+- Push notifications
+- User analytics
+- Custom domain setup for hosting
+
+## Repository & Links
+
+- **GitHub Repository:** [https://github.com/EdwinShibuMathew/flutter-Authentication-App](https://github.com/EdwinShibuMathew/flutter-Authentication-App)
+- **Live Demo:** [https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)
+- **Firebase Console:** [https://console.firebase.google.com/project/authenticationapp-88f64/overview](https://console.firebase.google.com/project/authenticationapp-88f64/overview)
 
 ## Dependencies
 
