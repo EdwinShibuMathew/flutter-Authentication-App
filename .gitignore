@@ -43,3 +43,37 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+#  FIREBASE SECURITY - Sensitive configuration files
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+ios/firebase_app_id_file.json
+macos/Runner/GoogleService-Info.plist
+macos/firebase_app_id_file.json
+windows/firebase_app_id_file.json
+linux/firebase_app_id_file.json
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Firebase hosting cache
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Firebase Functions
+functions/node_modules/
+functions/.env
+functions/lib/
+
+# Other sensitive files
+*.p12
+*.key
+*.jks
+*.keystore
+key.properties

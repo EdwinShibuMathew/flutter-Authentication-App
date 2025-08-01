@@ -7,6 +7,7 @@ A complete Flutter application with Firebase Authentication featuring email/pass
 **🚀 Try it now:** [https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)
 
 **📱 Test the app:**
+
 - Create a new account with any email/password
 - Experience the full authentication flow
 - View the beautiful Material Design interface
@@ -32,12 +33,14 @@ A complete Flutter application with Firebase Authentication featuring email/pass
 This app is deployed and live at: **[https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)**
 
 ### Deployment Stack:
+
 - **Hosting Platform:** Firebase Hosting
 - **Build Tool:** Flutter Web
 - **Source Control:** GitHub
 - **CI/CD:** Manual deployment with Firebase CLI
 
 ### To redeploy after changes:
+
 ```bash
 flutter build web
 firebase deploy --only hosting
@@ -121,6 +124,7 @@ lib/
 ## Testing the App
 
 ### 🌐 Online Testing (Recommended):
+
 Visit **[https://authenticationapp-88f64.web.app](https://authenticationapp-88f64.web.app)** and test directly in your browser!
 
 ### 📱 Local Testing:
@@ -254,3 +258,22 @@ This app can be extended with:
 ## License
 
 This project is for educational purposes.
+
+##  Security Configuration
+
+### Firebase Setup
+1. Copy `lib/firebase_options_template.dart` to `lib/firebase_options.dart`
+2. Replace placeholder values with your Firebase configuration from Firebase Console
+3. **IMPORTANT**: Never commit `firebase_options.dart` to version control
+
+### API Key Security
+- Firebase Web API Key is restricted to authorized domains
+- Only works on: `*.web.app`, `*.firebaseapp.com`, and `localhost`
+- Unauthorized domains cannot access Firebase services
+
+### Environment Variables (Production)
+For production deployments, use environment variables:
+``bash
+FIREBASE_API_KEY=your_api_key_here
+FIREBASE_PROJECT_ID=your_project_id_here
+FIREBASE_APP_ID=your_app_id_here
