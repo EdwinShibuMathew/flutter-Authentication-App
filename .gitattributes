@@ -1,0 +1,37 @@
+# Flutter/Dart project language detection
+*.dart linguist-language=Dart
+*.cc linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.m linguist-vendored
+*.mm linguist-vendored
+*.java linguist-vendored
+*.kt linguist-vendored
+*.swift linguist-vendored
+*.cmake linguist-vendored
+*.gradle linguist-vendored
+*.gradle.kts linguist-vendored
+*.plist linguist-vendored
+*.pbxproj linguist-vendored
+*.xcconfig linguist-vendored
+*.storyboard linguist-vendored
+*.xib linguist-vendored
+
+# Platform-specific directories should be treated as vendored
+android/* linguist-vendored
+ios/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+windows/* linguist-vendored
+web/index.html linguist-vendored
+web/manifest.json linguist-vendored
+
+# Generated files
+*.g.dart linguist-generated
+*.freezed.dart linguist-generated
+*.config.dart linguist-generated
+**/generated_plugin_registrant.dart linguist-generated
+**/GeneratedPluginRegistrant.* linguist-generated
+
+# Firebase generated files
+lib/firebase_options.dart linguist-generated
